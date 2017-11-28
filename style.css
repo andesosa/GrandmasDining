@@ -1,0 +1,88 @@
+/* Styles go here */
+body {
+ background-color:#98FB98;
+ font-family:Verdana,sans-serif;
+}
+
+h2, h3 {
+ margin: 0 0 -.7em 0 ;
+ color: blue;
+}
+
+.column-layout {
+ max-width:800px;
+ background-color:white;
+  margin-top:40px;
+ margin-left:150px;
+ margin-bottom:20px;
+ line-height: 1.65;
+ padding: 20px 40px;
+ display:flex;
+}
+
+.main-column {
+ flex:3;
+ order:1;
+}
+
+.sidebar-one {
+ flex:1;
+ order:2;
+}
+
+.call-outs-container {
+ max-width:800px;
+ margin-top:20px;
+ margin-left:150px;
+ display:flex;
+ justify-content: space-between;
+}
+
+.call-out {
+ padding:20px;
+ box-sizing: border-box;
+ color: yellow;
+ margin-bottom: 20px;
+ width: 30%;
+}
+
+.call-out:nth-child(1) {background-color:blue;}
+.call-out:nth-child(2) {background-color:red;}
+
+.menu {
+ max-width:200px;
+ display:flex;
+  margin-top:40px;
+ margin-left:150px;
+ flex-direction:row;
+}
+
+.menu-items {
+  background-color: yellow;
+  color:red;
+  text-family:verdana;
+  width: 500px;
+  height: 60px;
+  margin-right:10px;
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s, 1s;
+  text-decoration: none;
+}
+
+.menu-items:hover {
+    background-color: red;
+    color:yellow;
+}
+.button {
+  border:2px solid yellow;
+  background-color:red;
+  color:yellow;
+  transition-property: color,background-color;
+  transition-duration: 1s, 1s;
+  text-decoration: none;
+}
+.button:hover{
+  color:red;
+  background-color:yellow;
+}
