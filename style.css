@@ -88,7 +88,7 @@ h2, h3 {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://github.com/andesosa/HowTo/images/download (1).png);
+  background-color: #98FB98;
   color: blue;
   line-height: 1.6;
   text-align: center;
@@ -107,7 +107,6 @@ h1 {
 #showcase {
   height: 300px;
 }
-
 #showcase h1 {
   font-size: 50px;
   line-height: 1.3;
