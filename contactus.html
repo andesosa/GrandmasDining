@@ -29,8 +29,10 @@
         <b>Sat:</b> 8am - 11pm<br>
         <b>Sun:</b> 8am- 3pm</p>
       </div>
+      
  
  </div>
+ <div id="map"></div>
     <div class="call-outs-container">
       <div class="call-out">
         <h4>Family Sunday</h4>
@@ -48,6 +50,23 @@
         <img src= https://andesosa.github.io/HowTo/images/BusinessAdDesign.jpg>
       </div>
     </div>
+    
+    <script>
+      function initMap() {
+        var uluru = {lat: 25.769363, lng: -80.377991};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0EjTlKVGDcEvIOcegrduhLgu2bb74Seg&callback=initMap">
+    </script>
   </body>
 
   </html>
