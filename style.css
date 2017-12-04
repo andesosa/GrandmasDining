@@ -1,4 +1,11 @@
+
 /* Styles go here */
+
+#map {
+        height: 400px;
+        width: 100%;
+        margin:20px;
+       }
 
 body {
   font-family: Verdana, sans-serif;
