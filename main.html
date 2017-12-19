@@ -32,8 +32,9 @@
       </div>
     </div>
 
+<button id="hidebutton" onclick="hideoffers()">Hide Offers </button>
 
-    <div class="call-outs-container">
+    <div id="specialoffers" class="call-outs-container">
       <div class="call-out">
         <h4>Family Sunday</h4>
       <p>If you bring your family on a sunday you may get off 50% on certain menu items.</p>
@@ -50,6 +51,16 @@
         <img src= https://andesosa.github.io/HowTo/images/BusinessAdDesign.jpg>
       </div>
     </div>
+    
+    <script>
+      function hideoffers() {
+        var x = document.getElementById("specialoffers");
+        var y= document.getElementById("hidebutton");
+        x.style.display="none";
+        y.style.display="none";
+      }
+    </script>
+    
   </body>
 
   </html>
